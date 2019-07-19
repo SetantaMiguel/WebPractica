@@ -1,0 +1,162 @@
+* {
+    margin: 0;
+    padding: 0;
+
+}   
+
+.bodys{
+   
+    background-image: url("images/adventure-automobile-car-849835.jpg") ;  
+    background-position: center center;
+    background-attachment: fixed;
+    background-size:cover;
+    background-repeat: no-repeat;
+    background-color: azure;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+
+}
+nav{
+    height: 100px;
+    position: fixed;
+    top: 0 ;
+    width: 100%;
+}
+nav.mnu{
+
+    background: #1a141d;
+    padding: 1.3em 1em;
+    border-bottom: 6px solid rgb(190, 145, 255);
+    
+}
+Nav ul { 
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #5d80f1;
+    
+    
+}
+nav li{
+    float: left;    
+    border-right: 1px solid #bbb;
+}
+li a{
+  display: block;
+  padding:  14px 16px;
+  color: white;
+  text-align: center;
+  text-decoration: none;
+}
+.active {
+    background-color: #4CAF50;
+  }
+li a:hover:not(.active) {
+    background-color: #111;
+  }
+ li:last-child {
+    border-right: none;
+  }
+
+  * {
+    box-sizing: border-box;
+  }
+  
+  .responsive {
+    padding: 0 6px;
+    float: left;
+    width: 20% ;
+  }
+  
+  @media only screen and (max-width: 700px) {
+    .responsive {
+      width: 49.99999%;
+      margin: 6px 0;
+    }
+  }
+  
+  @media only screen and (max-width: 500px) {
+    .responsive {
+      width: 100%;
+    }
+  }
+.margg{
+    margin-left: 150px;
+}
+
+.rotateimage{
+    rotate: inherit;
+    
+
+}
+.Iconfont{
+    height: 45px;
+    width: 50px;
+
+}
+
+  .container {
+      width: 100%;
+      padding-right: 15px;
+      padding-left: 15px;
+      margin-right: auto;
+      margin-left: auto;
+  }
+div{
+
+    display: block;
+
+}
+
+    @media (min-width: 768px){
+    .container {
+        max-width: 720px;
+        }
+    }
+
+    @media (min-width: 576px) {
+        .container {
+            max-width: 540px;
+        }
+    }
+
+
+  .image {
+    display: block;
+    width: 100%;
+    height: 230px    ;
+  }
+  .containerImage{
+      width: 50%;
+      position: relative;
+  }
+  .overlay {
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    height: 100%;
+    width: 100%;
+    opacity: 0;
+    transition: .5s ease;
+    background-color: #008CBA;
+  }
+  
+  .containerImage:hover .overlay {
+    opacity: 1;
+  }
+  
+  .text {
+    color: white;
+    font-size: 20px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    -ms-transform: translate(-50%, -50%);
+  }
+  .pie{
+    width: 100%;
+
+  }
